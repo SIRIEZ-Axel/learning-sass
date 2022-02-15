@@ -79,6 +79,7 @@ h2 {
   transition: -webkit-transform .5s;
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
+}
 
 .container2 .button2:hover {
   -webkit-transition: .5s;
@@ -179,7 +180,7 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 7px 7px;
-  margin-top: -45px;
+  margin-top: -40px;
 }
 
 .para, .india, .super {
@@ -218,8 +219,5 @@ h2 {
   height: 13px;
   width: 13px;
   padding-right: 5px;
-}
-  background-color: white;
-  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
