@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 h2 {
     text-decoration: underline;
     margin: 60px 0 40px 0;
@@ -44,7 +45,6 @@ h2 {
     }
 }
 
-
 .container2 {
     .button2 {
         display: flex;
@@ -55,15 +55,22 @@ h2 {
         margin: 20px 0;
         padding: 20px 40px;
         font-size: 120%;
+
         transition: transform .5s;
         &:hover {
             transition: .5s;
             animation: slidein 2s;
             animation-fill-mode: forwards;
+
+        &:hover {
+            transition: .5s;
+            animation: slidein 2s;
+
             background-color: $white-color;
             color: #000;
         }
     }
+
 }
 
 /* Challenge scss */
